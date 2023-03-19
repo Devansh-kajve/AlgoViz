@@ -20,6 +20,9 @@ const Chatbox = () => {
   <img src=${user} alt="user icon"> <span>${message}</span>
   </div>`;
 
+    messages.innerHTML += `<div class="message bot-message" id="waiting">
+  <img src=${chatbot} alt="bot icon"> <span>Processing response...</span>
+  </div>`;
     // Use axios library to make a POST request to the OpenAI API
     const response = await axios.post(
       "https://api.openai.com/v1/completions",
@@ -41,6 +44,7 @@ const Chatbox = () => {
     );
     const chatbotResponse = response.data.choices[0].text;
     console.log(chatbotResponse);
+    document.getElementById("waiting").remove();
     messages.innerHTML += `<div class="message bot-message">
   <img src=${chatbot} alt="bot icon"> <span>${chatbotResponse}</span>
   </div>`;
