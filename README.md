@@ -1,7 +1,7 @@
 <div align="center" style="height: 130px">
 
-<h1 align="center">  ALGO / VISUALIZER </h1>
-Algorithm visualizer is a react base web app where we can visualize and play with algorithm.
+<h1 align="center">  ALGOVIZ </h1>
+Algorithm visualizer is a react base web app where we can have fun and play with algorithm while learning about them and ask doubts through an AI chat
 
 </div>
 
@@ -13,21 +13,13 @@ Algorithm visualizer is a react base web app where we can visualize and play wit
 - DFS
 - Dijkstra
 
-## Prerequisite
-
-- Basic coding knowledge
-
-- Some concept about data structure and algorithm
-
-- Mathematices
-
 ## Project Initialization
 
 - Clone the project
 
-- Change directory to AlgoVisualizer
+- Change directory to AlgoViz
 
-        cd AlgoVisualizer
+        cd AlgoViz
 
 - Open terminal and write
 
@@ -145,38 +137,3 @@ Time Complexity is n^2 because here i used Two itarations .
 Deployment Server :- <span> netlify </span>
 
 <a href="https://algo-visualizer-wasim.netlify.app">Click me to See </a>
-
-<!-- ### DEVELOPER
-
-<table>
-<tbody>
-<tr>
-<td align='center'>
-<img height="130" width="140" src="./Github/Developer/Image/Dev_pro_pic.jpeg" />       <br/>
-<a href="https://github.com/wasim15185"> <Strong>Wasim Akram Biswas </Strong></a>
-</td>
-</tr>
-</tbody>
-</table> -->
-
-## MIT License
-
-        Copyright (c) 2021 Wasim Akram Biswas
-
-        Permission is hereby granted, free of charge, to any person obtaining a copy
-        of this software and associated documentation files (the "Software"), to deal
-        in the Software without restriction, including without limitation the rights
-        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-        copies of the Software, and to permit persons to whom the Software is
-        furnished to do so, subject to the following conditions:
-
-        The above copyright notice and this permission notice shall be included in all
-        copies or substantial portions of the Software.
-
-        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-        SOFTWARE.
