@@ -9,9 +9,11 @@ const Chatbox = () => {
     const form = document.getElementById("chat-form");
     const input = document.getElementById("chat-input");
     const messages = document.getElementById("chat-messages");
-    const apiKey = "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";
+    const apiKey = process.env.REACT_APP_API_KEY;
 
     const message = input.value;
+    console.log(message);
+    console.log(apiKey);
     if (!message) return;
     input.value = "";
     messages.innerHTML += `<div class="message user-message">
@@ -38,7 +40,7 @@ const Chatbox = () => {
       }
     );
     const chatbotResponse = response.data.choices[0].text;
-
+    console.log(chatbotResponse);
     messages.innerHTML += `<div class="message bot-message">
   <img src=${chatbot} alt="bot icon"> <span>${chatbotResponse}</span>
   </div>`;
